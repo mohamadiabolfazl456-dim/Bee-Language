@@ -1,0 +1,7 @@
+fun power(float n,float m){
+    return n^m
+}
+//outl equipment to writeLine
+outl power(3,64)
+//or
+outl pow(power(3,64),2)
