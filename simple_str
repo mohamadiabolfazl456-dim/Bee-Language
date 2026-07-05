@@ -1,0 +1,12 @@
+str txt="abcd"
+outl replace(txt,"a","z")//zbcd
+outl slice(txt,1,len(txt))//bcd
+outl slice(txt,1,-1)//bc
+for i:txt{
+    outl I
+}
+//output
+//a
+//b
+//c
+//d
