@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bee Programming Language</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#111827;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(135deg,#f7c948,#ff9f1c);
+    color:#222;
+}
+
+header h1{
+    font-size:70px;
+}
+
+header p{
+    margin-top:20px;
+    font-size:22px;
+}
+
+.button{
+    display:inline-block;
+    margin-top:35px;
+    padding:15px 35px;
+    background:#111827;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.button:hover{
+    background:#374151;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:70px 20px;
+}
+
+h2{
+    color:#FFD54F;
+    margin-bottom:20px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1f2937;
+    padding:25px;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+}
+
+pre{
+    background:#0f172a;
+    padding:20px;
+    border-radius:10px;
+    overflow:auto;
+    color:#7CFC98;
+    margin-top:20px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    background:#0b1120;
+}
+
+footer a{
+    color:#FFD54F;
+    text-decoration:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🐝 Bee</h1>
+
+<p>
+A lightweight interpreted programming language built from scratch in C++.
+</p>
+
+<a class="button"
+href="https://github.com/mohamadiabolfazl456-dim/Bee-Language"
+target="_blank">
+View on GitHub
+</a>
+
+</header>
+
+<section>
+
+<h2>About Bee</h2>
+
+<p>
+Bee is an experimental programming language created for learning, research,
+and exploring how programming languages work internally.
+
+It includes its own lexer, parser, runtime, and interpreter, all written
+from scratch in modern C++.
+</p>
+
+</section>
+
+<section>
+
+<h2>Features</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>⚡ Fast Interpreter</h3>
+<p>Custom lexer, parser and interpreter.</p>
+</div>
+
+<div class="card">
+<h3>📦 Built-in Types</h3>
+<p>int, float, bool, string, list and struct.</p>
+</div>
+
+<div class="card">
+<h3>🔧 Utilities</h3>
+<p>Math, string, list, file and console functions.</p>
+</div>
+
+<div class="card">
+<h3>🌍 Cross Platform</h3>
+<p>Runs on Windows, Linux and Android.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Hello Bee</h2>
+
+<pre>
+str message="Hello Bee!"
+
+outl message
+</pre>
+
+</section>
+
+<section>
+
+<h2>Project Goals</h2>
+
+<p>
+Bee is designed to understand every stage of programming language
+implementation—from lexical analysis and parsing to runtime execution.
+
+Future plans include:
+
+<ul style="margin-top:15px;line-height:2;">
+<li>Classes</li>
+<li>Modules</li>
+<li>Package Manager</li>
+<li>SDL2 Graphics</li>
+<li>Bytecode Virtual Machine</li>
+<li>Garbage Collection</li>
+</ul>
+
+</p>
+
+</section>
+
+<footer>
+
+<p>Made with ❤️ by <b>Abolfazl Mohammadi</b></p>
+
+<p style="margin-top:15px;">
+<a href="https://github.com/mohamadiabolfazl456-dim/Bee-Language" target="_blank">
+GitHub Repository
+</a>
+</p>
+
+</footer>
+
+</body>
+</html>
